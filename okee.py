@@ -16,7 +16,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scopes)
 client = gspread.authorize(creds)
 
 # Find a workbook by url
-spreadsheet = client.open_by_url("https://docs.google.com/spreadsheets/d/13BMq0XCj4V852vWNcB8ErSkNZ5gPX7wAYbi7M7sgwzU/edit#gid=704459328&quot;)
+spreadsheet = client.open_by_url("https://webhookpnck.herokuapp.com/facebook;)
 sheet = spreadsheet.sheet1
 
 # Extract and print all of the values
